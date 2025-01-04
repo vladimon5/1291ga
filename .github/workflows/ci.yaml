@@ -19,7 +19,7 @@ jobs:
         distribution: 'zulu'
 
     - name: Show Java version
-      run: 'java -verion'
+      run: "java -version"
       
     - name: Checkout code
       uses: actions/checkout@v4
