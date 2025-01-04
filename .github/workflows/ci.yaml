@@ -8,7 +8,7 @@ on:
 
 jobs:
   my_first_job:
-    runs-on: self-hosted
+    runs-on: ubuntu-lates
     
     steps:
 
@@ -30,7 +30,7 @@ jobs:
       run: 'pwd'
 
     - name: List files
-      run: 'ls'
+      run: 'ls -al'
 
     - name: Install Dependencies
       run: 'mvn compile'
